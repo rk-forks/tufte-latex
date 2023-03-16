@@ -307,7 +307,10 @@
   \RequirePackage[osf,sc]{mathpazo}
   \setmainfont[Renderer=Basic, Numbers=OldStyle, Scale = 1.0]{TeX Gyre Pagella}
   \setsansfont[Renderer=Basic, Scale=0.90]{TeX Gyre Heros}
-  \setmonofont[Renderer=Basic]{TeX Gyre Cursor}
+  % \setmonofont[Renderer=Basic]{TeX Gyre Cursor}
+  \setmonofont[Renderer=Basic, Scale=MatchLowercase]{Bitstream Vera Sans Mono}
+  % \setmonofont{Tex Gyre Cursor}[Scale=MatchLowercase]
+
 }{}
 
 %%
